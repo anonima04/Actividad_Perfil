@@ -5,7 +5,7 @@
     list-style: none;
 }
 h1{
-    background-color: rgb(253, 242, 227);
+    background-color: rgb(254, 213, 155);
     border-radius: 10px;
     
 }
@@ -30,7 +30,7 @@ body{
     }
 
     #hobbies{
-        background-color: rgb(244, 175, 150);
+        background-color: rgb(255, 213, 198);
         margin: 20px;
         border-radius: 20px;
         text-align: center;
@@ -47,11 +47,15 @@ body{
         background-color: cornsilk;
         margin: 20px;
         border-radius: 20px;
+        text-align: center;
+        padding: 10px;
     }
     #Lenguajes{
-        background-color: cadetblue;
+        background-color: rgb(255, 213, 198);
         margin: 20px;
         border-radius: 20px;
+        text-align: center;
+        padding: 10px;
     }
     #imagenFavorites, #imagenHobbies, #imagenEstudios, #imagenLenguajes {
         height: 200px;
@@ -71,7 +75,10 @@ body{
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: aliceblue;
         border-radius: 10px;
-        margin: 10px;
+        margin: 30px;
+    }
+    h1{
+       padding: 20px;
     }
 
     #enunciado{
@@ -79,10 +86,11 @@ body{
         text-align: center;
         border-radius: 10px;
         margin: 20px;
+        
     }
 
     .hobbies{
-    background-color: beige;
+    background-color: rgb(80, 199, 203);
     margin: 20px;
     border-radius: 10px;
     display: grid;
@@ -93,7 +101,7 @@ body{
 
     #hobbies{
         grid-area: hobbies;
-        background-color: rgb(111, 118, 72);
+        background-color: rgb(255, 213, 198);
         margin: 20px;
         border-radius: 20px;
     }
@@ -112,12 +120,17 @@ body{
         margin: 20px;
         border-radius: 20px;
     }
-    #imagenHobbies{
+    #imagenHobbies, #imagenLenguajes, #imagenFavorites, #imagenEstudios{
         grid-area: imagen;
         height: 200px;
         width: auto;
         padding-left: 10%;
         margin-bottom: 10px;
+    }
+    #foto{
+        height: 300px;
+        border-radius: 20px;
+        padding:20px;
     }
 }
 
