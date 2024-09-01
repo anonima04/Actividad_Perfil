@@ -27,22 +27,24 @@ body{
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: aliceblue;
         margin: 20px;
+        border-radius: 10px;
+        padding: 10px;
     
-       
     }
 
     #hobbies, #favorites, #estudios, #Lenguajes{
         background-color: azure;
         text-align: center;
-        padding: 10px;
-        margin: 10px;
-        margin-bottom: 40px;
-        border-radius: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    
     }
-    .hobbies,.estudios, .favorites .Lenguajes{
-        margin: 10px;
+    .hobbies, .estudios, .favorites, .Lenguajes{
+        margin: 20px;
         border-radius: 20px;
-        padding-bottom: 2px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border: solid black ;
     }
 
     .hobbies{
@@ -76,11 +78,8 @@ body{
         font-size: larger;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: aliceblue;
-        border-radius: 10px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
     }
     h1{
        padding: 20px;
@@ -94,6 +93,7 @@ body{
     "h3 h3"
     "imagen favorites";
     padding-bottom: 10px;
+    border: solid black;
     }
 
     .hobbies, .estudios{
@@ -104,6 +104,7 @@ body{
         "h3 h3"
         "hobbies imagen";
         padding-bottom: 10px;
+        border: solid black;
         }
     .hobbies{
         background-color: rgb(80, 199, 203) ;
@@ -123,9 +124,10 @@ body{
     #hobbies{
         grid-area: hobbies;
         background-color: azure;
-        margin-left: 40px;
+        margin-left: 45px;
         margin-bottom: 20px;
         border-radius: 20px;
+        margin-right: 40px;
         padding: 20px;
         padding-top: 40px;
         text-align: center;
@@ -134,6 +136,7 @@ body{
         grid-area: favorites;
         background-color:azure;
         margin: 20px;
+        margin-right: 50px;
         border-radius: 20px;
         text-align: center;
         padding: 20px;
@@ -143,7 +146,8 @@ body{
         background-color: azure;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 30px;
+        margin-left: 45px;
+        margin-right: 40px;
         text-align: center;
         padding: 20px;
         border-radius: 20px;
@@ -152,27 +156,35 @@ body{
         grid-area: favorites;
         background-color:azure;
         margin: 20px;
-        margin-right: 60px;
+        margin-right: 50px;
         border-radius: 20px;
-        padding: 20px;
+        padding: 60px;
         flex-wrap: wrap;
         text-align: center;
     }
     #imagenHobbies, #imagenLenguajes, #imagenFavorites, #imagenEstudios{
-        grid-area: imagen;
         height: 200px;
-        width: auto;
-        margin-left: 10%;
-        margin-bottom: 10px;
+        width: 300px;
         border-radius: 20px;
+    }
+
+    #imagenHobbies{
+        grid-area: imagen;
+        margin-right: -80px;
     }
     #imagenEstudios{
         grid-area: imagen;
-        height: 200px;
-        width: auto;
-        margin-right: 70px;
-        border-radius: 20px;
+        margin-right: 50px;
     }
+    #imagenFavorites{
+        grid-area: imagen;
+        margin-left: 45px;
+    }
+    #imagenLenguajes{
+        grid-area: imagen;
+        margin-left: 45px;
+    }
+  
     #foto{
         height: 300px;
         border-radius: 20px;
