@@ -18,7 +18,6 @@ body{
     border: black solid;
     text-align: center;
     border-radius: 10px;
-    margin: 20px;
 }
 @media (max-width: 480px) {
     h3{
@@ -193,6 +192,53 @@ body{
 }
 
 @media (min-width: 1024px){
+    h2{
+        padding: 20px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-areas: 
+        "enunciado hobbies"
+        "favorites estudios"
+        "favorites lenguajes";
+    }
+    #enunciado{
+        grid-area:enunciado;
+        border-radius: 10px;
+        margin: 10px;
+       
+    }
+
+    .hobbies{
+        grid-area: hobbies;
+        background-color: rgb(80, 199, 203) ;
+    }
+
+    .Lenguajes{
+        grid-area: lenguajes;
+        background-color: rgb(73, 163, 241);
+    }
+
+    .favorites{
+        grid-area: favorites;
+        background-color: rgb(246, 216, 204);
+    }
+    .estudios{
+        grid-area: estudios;
+        background-color:  rgb(167, 244, 157);
+    }
+
+
+    #foto{
+        height: 300px;
+        border-radius: 10px;
+
+    }
+
+    #imagenHobbies, #imagenLenguajes, #imagenEstudios, #imagenFavorites{
+        height: 400px;
+        width: auto;
+    }
 
 }
 
