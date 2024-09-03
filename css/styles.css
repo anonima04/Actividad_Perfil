@@ -19,7 +19,7 @@ body{
     text-align: center;
     border-radius: 10px;
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) {
     h3{
         text-align: center;
         font-size: larger;
@@ -169,7 +169,7 @@ body{
 
     #imagenHobbies{
         grid-area: imagen;
-        margin-right: -80px;
+        margin-right: -60px;
     }
     #imagenEstudios{
         grid-area: imagen;
@@ -193,41 +193,65 @@ body{
 
 @media (min-width: 1024px){
     h2{
-        padding: 20px;
+        padding: 40px;
     }
-    .contenedor{
+    .bodyContenedor{
+        margin: 40px;
         display: grid;
         grid-template-areas: 
-        "enunciado hobbies"
         "favorites estudios"
-        "favorites lenguajes";
+        "hobbies lenguajes";
     }
     #enunciado{
         grid-area:enunciado;
         border-radius: 10px;
-        margin: 10px;
+        margin: 40px;
        
     }
 
     .hobbies{
+        border-radius: 20px;
+        border:black solid;
         grid-area: hobbies;
         background-color: rgb(80, 199, 203) ;
     }
 
     .Lenguajes{
+        border-radius: 20px;
+        border: solid black;
         grid-area: lenguajes;
         background-color: rgb(73, 163, 241);
     }
 
     .favorites{
+        border-radius: 20px;
         grid-area: favorites;
+        border: solid black;
         background-color: rgb(246, 216, 204);
     }
     .estudios{
         grid-area: estudios;
+        border-radius: 20px;
+        border: solid black;
         background-color:  rgb(167, 244, 157);
     }
+    #hobbies{
+        text-align: center;
+    }
+    #Lenguajes{
+        text-align: center;
+    }
+    #estudios{
+        text-align: center;
+    }
+    #favorites{
+        text-align: center;
+    }
 
+    h3{
+        text-align: center;
+    }
+    
 
     #foto{
         height: 300px;
@@ -237,7 +261,8 @@ body{
 
     #imagenHobbies, #imagenLenguajes, #imagenEstudios, #imagenFavorites{
         height: 400px;
-        width: auto;
+        width: 500px;
+        
     }
 
 }
