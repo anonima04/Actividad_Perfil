@@ -276,15 +276,27 @@ body{
         padding-left: 90px;
         font-size: 1em;
     }
-
-    #miami, #hawai{
+    .libro, .peliculas{
         height: 600px;
         width: 600px;
         padding: 20px;
         margin: 0 auto;
     }
+    #series, #libros{
+        background-color: aliceblue;
+        margin: 60px;
+        border-radius: 20px;
+        opacity: 0.9;
+        padding: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+   
 
 }
+
+
+
 
 
 
