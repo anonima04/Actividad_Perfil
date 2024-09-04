@@ -36,7 +36,7 @@ body{
        
     }
     h1{
-        padding: 40px;
+        padding: 20px;
         font-size: 3em;
     }
     h3{
@@ -82,6 +82,13 @@ body{
     #imagenFavorites, #imagenHobbies, #imagenEstudios, #imagenLenguajes {
         height: 200px;
         width: 100%;
+       
+    }
+    #imagenFavorites:hover, #imagenHobbies:hover,#imagenEstudios:hover, #imagenLenguajes:hover{
+        filter: brightness(1.2);
+        transition: filter 0.3s ease;
+        transform: scale(1.1);
+        
     }
     #foto{
         height: 200px;
@@ -92,7 +99,8 @@ body{
         height: 200px;
         width: 300px;
         padding: 15px;
-        margin: 0 auto;
+        margin-left: 50px;
+        
     }
     #series, #libros, #favoritos, #lenguaje, #estudio{
         background-color: aliceblue;
@@ -264,7 +272,7 @@ body{
     h2{
         padding: 30px;
         font-size: 2em;
-        margin: 50px;
+        margin: 40px;
     }
     .bodyContenedor{
         margin-left: 70px;
@@ -299,7 +307,6 @@ body{
 
     .favorites{
         width: 600px;
-       
         border-radius: 20px;
         grid-area: favorites;
         border: solid black;
@@ -338,22 +345,23 @@ body{
     }
 
     #imagenHobbies, #imagenLenguajes, #imagenEstudios, #imagenFavorites{
-        height: 400px;
-        width: 500px;
+        height: 300px;
+        width: 450px;
         padding-left: 90px;
         font-size: 1em;
+        margin-left: 25px;
     }
 
     .libro, .peliculas, .favoritos, .lenguaje{
         height: 400px;
         width: 500px;
         padding: 10px;
-        margin-left: 40px;
+        margin-left: 110px;
     }
     .estudio{
         width: 700px;
         height: auto;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     #series, #libros, #favoritos, #lenguaje, #estudio{
         background-color: aliceblue;
@@ -366,10 +374,10 @@ body{
     }
 
     #sobreMi{
-        padding: 40px;
+        padding: 20px;
         font-size: 3em;
-        border-radius: 20px;
-        margin: 60px;
+        margin: 0;
+        border-radius: 0;
     }
    
 
