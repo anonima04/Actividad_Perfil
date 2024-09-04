@@ -6,8 +6,6 @@
 }
 h1{
     background-color: azure;
-    border-radius: 10px;
-    
 }
 
 body{
@@ -22,6 +20,24 @@ body{
 @media (min-width: 320px) {
     #enunciado{
         margin: 20px;
+    }
+    h2{
+        text-align: center;
+        background-color: rgb(241, 155, 171);
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    #nombre{
+        text-align: center;
+        background-color: none;
+        padding: 20px;
+        font-size: 2em;
+       
+    }
+    h1{
+        padding: 40px;
+        font-size: 3em;
     }
     h3{
         text-align: center;
@@ -72,6 +88,30 @@ body{
         border-radius: 20px;
         margin:20px;
     }
+    .libro, .peliculas, .favoritos, .lenguaje, .estudio{
+        height: 200px;
+        width: 300px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    #series, #libros, #favoritos, #lenguaje, #estudio{
+        background-color: aliceblue;
+        margin: 20px;
+        border-radius: 20px;
+        opacity: 0.9;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    #sobreMi{
+        text-align: center;
+        border-radius: 20px;
+        margin: 20px;
+        background-color:rgb(249, 176, 127);
+    }
+   
+   
 }
 @media (min-width: 600px) and (max-width: 1023px) {
     h3{
@@ -83,9 +123,17 @@ body{
         padding: 10px;
         margin-bottom: 20px;
     }
-    h1{
+    #sobreMi{
        padding: 20px;
+       font-size: 3em;
+       margin: 60px;
     }
+    h2{
+        padding: 10px;
+        margin: 40px;
+        font-size: 2em;
+    }
+
 
     .favorites, .Lenguajes{
     margin: 20px;
@@ -193,11 +241,30 @@ body{
         border-radius: 20px;
         padding:20px;
     }
+
+    .libro, .peliculas, .favoritos, .lenguaje, .estudio{
+        height: 400px;
+        width: 500px;
+        border-radius: 20px;
+        padding: 20px;
+        margin-left: 65px;
+    }
+    #series, #libros, #favoritos, #lenguaje, #estudio{
+        background-color: aliceblue;
+        margin: 60px;
+        border-radius: 20px;
+        opacity: 0.9;
+        padding: 40px;
+    
+    }
+   
 }
 
 @media (min-width: 1024px){
     h2{
-        padding: 40px;
+        padding: 30px;
+        font-size: 2em;
+        margin: 50px;
     }
     .bodyContenedor{
         margin-left: 70px;
@@ -276,20 +343,33 @@ body{
         padding-left: 90px;
         font-size: 1em;
     }
-    .libro, .peliculas{
-        height: 600px;
-        width: 600px;
-        padding: 20px;
-        margin: 0 auto;
+
+    .libro, .peliculas, .favoritos, .lenguaje{
+        height: 400px;
+        width: 500px;
+        padding: 10px;
+        margin-left: 40px;
     }
-    #series, #libros{
+    .estudio{
+        width: 700px;
+        height: auto;
+        margin-left: 200px;
+    }
+    #series, #libros, #favoritos, #lenguaje, #estudio{
         background-color: aliceblue;
         margin: 60px;
         border-radius: 20px;
         opacity: 0.9;
-        padding: 40px;
+        padding: 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    #sobreMi{
+        padding: 40px;
+        font-size: 3em;
+        border-radius: 20px;
+        margin: 60px;
     }
    
 
